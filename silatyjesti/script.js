@@ -11,7 +11,7 @@ function Massa(){
         if (isNaN(input.value)){
             document.getElementById("vivod").innerHTML = "Введите именно число";
         } else{
-            document.getElementById("vivod").innerHTML = `Примерно: ${input.value/10}`;
+            document.getElementById("vivod").innerHTML = `Примерно: ${input.value/10} Ньютонов`;
         }
     }
     input.type = "text";
@@ -35,7 +35,7 @@ function SilaTyajesti(){
         if (isNaN(input.value)){
             document.getElementById("vivod").innerHTML = "Введите именно число";
         } else{
-            document.getElementById("vivod").innerHTML = `Примерно: ${input.value*10}`;
+            document.getElementById("vivod").innerHTML = `Примерно: ${input.value*10} Ньютонов`;
         }
     }
     input.type = "text";
