@@ -15,7 +15,7 @@ function Massa(){
         }
     }
     input.type = "text";
-    input.placeholder = "Введите M";
+    input.placeholder = "Введите Fт";
     var container = document.getElementById("input-container"); // получите элемент по идентификатору
     container.innerHTML = ""; // очистите содержимое элемента
     container.appendChild(input); // добавьте элемент input в элемент container
