@@ -26,7 +26,7 @@ function SilaTyajesti(){
     var input = document.createElement("input");
     var button = document.createElement("button");
     button.type = "button";
-    button.innerHTML = "Нажмите чтоб бы решить";
+    button.innerHTML = "Решить";
     button.onclick = function(){
         if(input.value == ""){
             document.getElementById("vivod").innerHTML = "Введите значение M в поле ввода";
