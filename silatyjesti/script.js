@@ -15,7 +15,7 @@ function Massa(){
         }
     }
     input.type = "text";
-    input.placeholder = "Введите Fт";
+    input.placeholder = "Введите силу тяжести в Ньтонах";
     var container = document.getElementById("input-container"); // получите элемент по идентификатору
     container.innerHTML = ""; // очистите содержимое элемента
     container.appendChild(input); // добавьте элемент input в элемент container
@@ -39,7 +39,7 @@ function SilaTyajesti(){
         }
     }
     input.type = "text";
-    input.placeholder = "Введите M";
+    input.placeholder = "Введите массу в кг";
     var container = document.getElementById("input-container"); // получите элемент по идентификатору
     container.innerHTML = ""; // очистите содержимое элемента
     container.appendChild(input); // добавьте элемент input в элемент container
