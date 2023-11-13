@@ -11,7 +11,7 @@ function Massa(){
         if (isNaN(input.value)){
             document.getElementById("vivod").innerHTML = "Введите именно число";
         } else{
-            document.getElementById("vivod").innerHTML = `Примерно: ${input.value/10} Ньютонов`;
+            document.getElementById("vivod").innerHTML = `Примерно: ${input.value/10} кг`;
         }
     }
     input.type = "text";
